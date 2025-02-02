@@ -7,6 +7,8 @@ import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Skill from './Pages/Skill/Skill'
 import Project from './Pages/Projects/Project'
+import Testimonial from './Pages/Testimonial/Testimonial'
+import Contact from './Pages/Contact/Contact'
 
 function App() {
  
@@ -18,6 +20,8 @@ function App() {
       <Skill/>
       <About/>
       <Project/>
+      <Testimonial/>
+      <Contact/>
     </div>
   )
 }
