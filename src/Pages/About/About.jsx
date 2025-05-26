@@ -4,9 +4,9 @@ import AboutImage from "../../assets/Images/aboutImage.png"
 
 const About = () => {
   return (
-    <div className="w-[100%] h-screen flex justify-around">
+    <div className="w-full h-auto max-h-screen flex justify-center items-center gap-10">
       <div className="AboutImage w-[40%] h-[100%]  flex justify-center items-center ">
-              <img className="w-full h-[100%] " src={AboutImage} alt="heroImage" />
+              <img className="w-full h-full " src={AboutImage} alt="heroImage" />
             </div>
       <div className="AboutImage w-[50%] h-[100%] gap-4 flex justify-center flex-col items-center">
         <SubHeading text="About" />
