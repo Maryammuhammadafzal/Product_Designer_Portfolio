@@ -3,7 +3,7 @@ import Button from '../Button/Button'
 
 const Navbar = () => {
   return (
-    <nav className='w-[100%] h-[70px] flex justify-between shadow-md  items-center bg-white'>
+    <nav className='w-full h-[70px] flex justify-between shadow-md  items-center bg-white'>
         <div className="logo w-[20%] h-[40px] items-center flex justify-center ">
                 <h3>Logo</h3>
         </div>

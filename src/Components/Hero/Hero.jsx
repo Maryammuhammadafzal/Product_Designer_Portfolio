@@ -5,7 +5,7 @@ import SubHeading from "../SubHeading/SubHeading";
 
 const Hero = () => {
   return (
-    <div className="w-[100%] h-auto 2xl-h-screen  flex justify-evenly  items-center">
+    <div className="w-full  h-auto 2xl-h-screen  flex justify-evenly  items-center">
       <div className="w-[50%] h-[100%] flex flex-col items-center gap-y-5 justify-center ">
         <SubHeading text="Hey I am John"/>
         <h1 className="w-[80%] h-fit leading-14 font-bold text-5xl">
@@ -21,7 +21,7 @@ const Hero = () => {
         <Button text="Get in touch" bg="[#5E3BEE]" color="[#fff]"/>
         </div>
       </div>
-      <div className="w-[40%] h-[100%] flex justify-between items-center ">
+      <div className="w-[50%] h-auto flex justify-between items-center ">
         <img src={HeroImage} alt="heroImage" />
       </div>
     </div>

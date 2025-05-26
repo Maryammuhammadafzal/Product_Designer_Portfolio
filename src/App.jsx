@@ -14,7 +14,7 @@ function App() {
  
 
   return (
-    <div className='w-[100%] h-auto flex flex-col gap-20 bg-[#e9e8f0]'>
+    <div className='w-full overflow-hidden h-auto flex flex-col gap-20  bg-[#e9e8f0]'>
       <Navbar/>
       <Home/>
       <Skill/>
