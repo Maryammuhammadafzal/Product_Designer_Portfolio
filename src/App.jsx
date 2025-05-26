@@ -9,6 +9,7 @@ import Skill from './Pages/Skill/Skill'
 import Project from './Pages/Projects/Project'
 import Testimonial from './Pages/Testimonial/Testimonial'
 import Contact from './Pages/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
       <Project/>
       <Testimonial/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

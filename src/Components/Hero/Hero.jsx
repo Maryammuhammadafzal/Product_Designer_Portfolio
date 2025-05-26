@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="w-full  h-auto 2xl-h-screen  flex justify-evenly  items-center">
       <div className="w-[50%] h-[100%] flex flex-col items-center gap-y-5 justify-center ">
         <SubHeading text="Hey I am John"/>
-        <h1 className="w-[80%] h-fit leading-14 font-bold lg:text-6xl lg:leading-16">
+        <h1 className="w-[80%] h-fit leading-14 font-bold md:text-4xl lg:text-5xl xl:text-6xl xl:leading-16">
           I create <span className="text-[#5E3BEE]">Product Design</span> and brand experience
         </h1>
         <p className="w-[80%] h-fit text-base text-gray-600 lg:text-lg xl:text-xl ">
