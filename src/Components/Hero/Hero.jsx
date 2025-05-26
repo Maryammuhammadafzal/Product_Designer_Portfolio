@@ -8,10 +8,10 @@ const Hero = () => {
     <div className="w-full  h-auto 2xl-h-screen  flex justify-evenly  items-center">
       <div className="w-[50%] h-[100%] flex flex-col items-center gap-y-5 justify-center ">
         <SubHeading text="Hey I am John"/>
-        <h1 className="w-[80%] h-fit leading-14 font-bold lg:text-5xl xl:text-6xl 2xl:text-7xl 2xl:leading-20">
+        <h1 className="w-[80%] h-fit leading-14 font-bold lg:text-6xl lg:leading-16">
           I create <span className="text-[#5E3BEE]">Product Design</span> and brand experience
         </h1>
-        <p className="w-[80%] h-fit text-base text-gray-600">
+        <p className="w-[80%] h-fit text-base text-gray-600 lg:text-lg xl:text-xl ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
           eveniet suscipit harum tempora soluta velit nobis alias incidunt
           dolore optio ipsum quo id debitis fugit corrupti tenetur est iure.
@@ -21,8 +21,8 @@ const Hero = () => {
         <Button text="Get in touch" bg="[#5E3BEE]" color="[#fff]"/>
         </div>
       </div>
-      <div className="w-[50%] h-auto flex justify-between items-center ">
-        <img src={HeroImage} alt="heroImage" />
+      <div className="w-[50%] h-auto flex justify-between items-center">
+        <img src={HeroImage} alt="heroImage" className="w-auto h-auto" />
       </div>
     </div>
   );
