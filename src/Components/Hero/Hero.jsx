@@ -5,10 +5,10 @@ import SubHeading from "../SubHeading/SubHeading";
 
 const Hero = () => {
   return (
-    <div className="w-full  h-auto 2xl-h-screen  flex justify-evenly  items-center">
-      <div className="w-[50%] h-[100%] flex flex-col items-center gap-y-5 justify-center ">
+    <div className="w-full  h-auto 2xl-h-screen flex-col md:flex-row flex justify-evenly  items-center">
+      <div className="md:w-[50%] h-[100%] w-full flex flex-col items-center gap-y-5 justify-center ">
         <SubHeading text="Hey I am John"/>
-        <h1 className="w-[80%] h-fit leading-14 font-bold md:text-4xl lg:text-5xl xl:text-6xl xl:leading-16">
+        <h1 className="w-[80%] h-fit leading-10 font-bold text-3xl sm:text-4xl md:leading-12  lg:text-5xl xl:text-6xl xl:leading-16">
           I create <span className="text-[#5E3BEE]">Product Design</span> and brand experience
         </h1>
         <p className="w-[80%] h-fit text-base text-gray-600 lg:text-lg xl:text-xl ">
@@ -21,7 +21,7 @@ const Hero = () => {
         <Button text="Get in touch" bg="[#5E3BEE]" color="[#fff]"/>
         </div>
       </div>
-      <div className="w-[50%] h-auto flex justify-between items-center">
+      <div className="md:w-[50%] w-[90%] h-auto flex justify-between items-center">
         <img src={HeroImage} alt="heroImage" className="w-[90%] h-auto" />
       </div>
     </div>
