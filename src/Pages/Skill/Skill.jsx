@@ -9,7 +9,7 @@ const Skill = () => {
         <SubHeading text="My Skill" />
         <h2 className="h-fit font-bold text-4xl">My Expertise</h2>
       </div>
-      <div className="cards w-full h-auto flex items-center justify-center gap-3">
+      <div className="cards w-[90%] h-auto flex items-center justify-start gap-3">
         <Card title="Strategy Direction" image=""/>
         <Card title="Branding & Logo" image=""/>
         <Card title="UI/UX Designer" image=""/>
